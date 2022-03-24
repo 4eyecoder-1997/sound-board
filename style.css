@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #96CEB4;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-flex;
+    margin: 25px;
+    background-color: #D9534F;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #FFAD60;
+    color: #000;
+}
+
+.btn:active {
+    transform: scale(1.2);
+}
+
+.red {
+    background-color: red;
+}
